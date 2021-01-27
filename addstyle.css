@@ -1,0 +1,520 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rasa:wght@300;400;500;600;700&display=swap");
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+body {
+  overflow-x: hidden;
+  padding: 0px !important;
+  margin: 0px !important;
+  max-width: 100 !important;
+  min-width: 0px !important;
+}
+
+.body::-webkit-scrollbar {
+  display: none !important;
+}
+
+.body {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.lato_txt {
+  font-family: Lato, sans-serif !important;
+}
+
+nav {
+  background-color: #fff !important;
+  top: 0;
+  height: auto;
+}
+
+.sticky-top {
+  position: -webkit-sticky !important;
+  position: sticky !important;
+  top: 0 !important;
+  z-index: 1020 !important;
+}
+
+.navbar-nav a.nav-link {
+  transition: all 0.1s ease-in-out;
+  /*color: #666 !important;*/
+  font-size: 20px;
+  font-size-adjust: 0.53;
+  font-family: Rasa, sans-serif !important;
+}
+
+.navbar-expand-lg {
+  box-sizing: border-box;
+  box-shadow: 0 2px 9px #ccc;
+}
+
+.logo {
+  width: 6vw;
+  margin-left: 70px;
+  margin-right: 10px;
+}
+.logo_footer {
+  width: 6vw;
+}
+
+.brand-name {
+  font-size: 1.6rem;
+  font-size-adjust: 0.5;
+  margin: auto 1rem;
+  color: black;
+  font-family: Rasa, sans-serif;
+  font-weight: 500;
+  line-height: 1;
+  flex-grow: 1;
+}
+
+.brand-name_foot {
+  font-size: 1.1rem;
+  font-size-adjust: 0.5;
+  margin: auto 1rem;
+  color: black;
+  font-family: Rasa, sans-serif;
+  font-weight: 500;
+  line-height: 1;
+  flex-grow: 1;
+}
+
+.vertical-line {
+  border-left: 2px solid rgba(255, 174, 25, 0.3);
+  margin: 1.1rem 0 1.1rem 0.8rem;
+}
+
+.college-brand {
+  display: flex;
+}
+
+.college-brand_foot {
+  display: flex;
+}
+
+a.nav-item.active_nav_link {
+  color: #000 !important;
+  font-weight: 700;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.weight {
+  color: white;
+}
+
+.nat {
+  font-size: 1.4rem;
+}
+
+.txt {
+  font-size: 40px !important;
+  text-align: center;
+  font-weight: 300 !important;
+  font-family: Lato, sans-serif;
+}
+
+.txt1 {
+  font-size: 24px !important;
+  text-align: center;
+  font-weight: 300 !important;
+  font-family: Lato, sans-serif;
+}
+
+.carousel-nav-icon {
+  height: 48px;
+  width: 48px;
+}
+
+.card,
+.card-img-top {
+  border-radius: 0;
+}
+
+.head_4 .col-md-4 {
+  padding: 4px !important;
+}
+
+.disc_txt {
+  padding-bottom: 20px;
+}
+
+.disc_txt_body {
+  font-size: 20px;
+  line-height: 113.6%;
+  padding-right: 50px;
+}
+
+.fill {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.fill img {
+  flex-shrink: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.mobile_view {
+  display: none;
+}
+
+.campus_img_right {
+  border-radius: 10px 0px 0px 10px;
+  width: 750px;
+  height: 500px;
+  filter: drop-shadow(0px 10px 100px rgba(0, 0, 0, 0.4));
+  float: right;
+}
+
+.campus_img_left {
+  border-radius: 0px 10px 10px 0px;
+  width: 750px;
+  height: 500px;
+  filter: drop-shadow(0px 10px 100px rgba(0, 0, 0, 0.4));
+  float: left;
+}
+
+.campus_text_left {
+  padding-left: 152px;
+  padding-right: 52px;
+  padding-top: 20px;
+  text-align: right;
+}
+.campus_text_right {
+  padding-right: 152px;
+  padding-left: 52px;
+  padding-top: 20px;
+  text-align: left;
+}
+
+.doubt_txt_body {
+  padding-right: 60px;
+}
+
+.bottom-menu {
+  list-style: none;
+  padding: 5px;
+  color: #ffffff;
+  line-height: 1.8;
+}
+.bottom-menu li a {
+  color: #ffffff;
+}
+
+.bottom_foot_dix {
+  color: white;
+  text-decoration: none;
+}
+.bottom_foot_dix:hover {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.opti_on {
+  color: white;
+  text-decoration: none;
+  text-shadow: 2px 2px 4px #000000;
+}
+.opti_on:hover {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.txt_20px {
+  font-size: 20px;
+}
+
+.txt_25px {
+  font-size: 25px;
+}
+.campus_txt_body {
+  line-height: 23.67px;
+  font-size: 23px;
+  font-weight: 300;
+}
+.txt_23px {
+  font-size: 23px;
+}
+
+.txt_30px {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.txt_35px {
+  font-size: 35px;
+  font-weight: 700;
+  font-family: "Lato", sans-serif;
+}
+
+.addr_footer {
+  line-height: 1.2;
+  font-size: 20px;
+  line-height: 120.6%;
+}
+.dot {
+  font-size: 2rem;
+  color: #ffc32b;
+  margin-top: -3%;
+}
+
+.p_img1 {
+  background-image: url("./images/lhc.jpg");
+  background-repeat: no-repeat;
+  background-color: #cacaca;
+  background-size: 100% 100%;
+  height: 320px;
+}
+
+.p_img2 {
+  background-image: url("./images/atrium.jpg");
+  background-repeat: no-repeat;
+  background-color: #cacaca;
+  background-size: 100% 100%;
+  height: 320px;
+}
+
+.p_img3 {
+  background-image: url("./images/octagan.jpg");
+  background-repeat: no-repeat;
+  background-color: #cacaca;
+  background-size: 100% 100%;
+  height: 320px;
+}
+
+.p_img4 {
+  background-image: url("./images/galleria.jpg");
+  background-repeat: no-repeat;
+  background-color: #cacaca;
+  background-size: 100% 100%;
+  height: 320px;
+}
+
+.p_img5 {
+  background-image: url("./images/tifac.jpg");
+  background-repeat: no-repeat;
+  background-color: #cacaca;
+  background-size: 100% 100%;
+  height: 320px;
+}
+
+.p_img6 {
+  background-image: url("./images/core.jpg");
+  background-repeat: no-repeat;
+  background-color: #cacaca;
+  background-size: 100% 100%;
+  height: 320px;
+}
+
+@media only screen and (max-width: 768px) {
+  nav {
+    height: auto;
+  }
+
+  .navbar-nav a.nav-item {
+    transition: all 0.1s ease-in-out;
+    /*color: #666 !important;*/
+    font-size: 16px;
+    font-size-adjust: 0.53;
+  }
+
+  .nav-link {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .vertical-line {
+    margin: 0.8rem 0 0.8rem 0.4rem;
+  }
+
+  .logo {
+    margin: 0 0 0;
+    width: 54px;
+  }
+
+  .logo_footer {
+    margin: 0 0 0;
+    width: 54px;
+  }
+
+  .college-brand {
+    width: 75%;
+  }
+
+  .brand-name {
+    font-size: 0.8rem;
+    width: 53%;
+  }
+  .college-brand_foot {
+  }
+
+  .brand-name_foot {
+    font-size: 0.8rem;
+    width: 53%;
+  }
+
+  .nat {
+    font-size: 0.75rem;
+  }
+
+  .txt {
+    font-size: 32px !important;
+    text-align: center;
+    font-weight: 400 !important;
+  }
+
+  .txt1 {
+    font-size: 14px !important;
+    text-align: center;
+    font-weight: 300 !important;
+  }
+  .carousel-nav-icon {
+    height: 48px;
+    width: 48px;
+  }
+  .card,
+  .card-img-top {
+    border-radius: 0;
+  }
+
+  .web_view {
+    display: none;
+  }
+
+  .mobile_view {
+    display: inherit;
+  }
+
+  .campus_img_right {
+    border-radius: 10px 10px 10px 10px;
+    width: 360px;
+    height: 240px;
+    filter: drop-shadow(0px 10px 30px rgba(0, 0, 0, 0.25));
+    margin-bottom: 20px;
+  }
+
+  .campus_img_left {
+    border-radius: 10px 10px 10px 10px;
+    width: 360px;
+    height: 240px;
+    filter: drop-shadow(0px 10px 30px rgba(0, 0, 0, 0.25));
+    margin-bottom: 20px;
+  }
+
+  .campus_txt_body {
+    line-height: 23.67px;
+    font-size: 16px;
+    font-weight: 300;
+  }
+
+  .disc_txt {
+    padding-bottom: 20px;
+    padding-left: 10px;
+  }
+
+  .disc_txt_body {
+    font-size: 20px;
+    line-height: 113.6%;
+
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+
+  .doubt_txt_body {
+    padding-right: 0px;
+  }
+
+  .svg_img {
+    padding-left: 10px;
+  }
+}
+
+/*---- Carousel -------*/
+@media (max-width: 768px) {
+
+  .carousel-inner .carousel-item > div {
+    display: none;
+  }
+  .carousel-inner .carousel-item > div:first-child {
+    display: block;
+  }
+}
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+  display: flex;
+}
+.carousel-control-next span {
+  width: 30px;
+  height: 30px;
+}
+
+.carousel-control-prev span {
+  width: 30px;
+  height: 30px;
+}
+
+/* display 3 */
+@media (min-width: 768px) {
+  .carousel-inner .carousel-item-right.active,
+  .carousel-inner .carousel-item-next {
+    transform: translateX(33.333%);
+  }
+
+  .carousel-inner .carousel-item-left.active,
+  .carousel-inner .carousel-item-prev {
+    transform: translateX(-33.333%);
+  }
+}
+
+.carousel-inner .carousel-item-right,
+.carousel-inner .carousel-item-left {
+  transform: translateX(0);
+}
+
+/* ---*---carousel end ----*---- */
+
+/*-------- code by Adil Zamal----------- */
+
+/* -------Apply Now and Admission process------- */
+.in_body > a:first-of-type:hover {
+  color: #000 !important;
+  background-color: #f1f1f1;
+}
+
+/* number animation code */
+@property --num {
+  syntax: "<integer>";
+  initial-value: 0;
+  inherits: false;
+}
+.num1 {
+  animation: counter 3s ease-in-out;
+  counter-reset: num var(--num);
+  font: 800 40px system-ui;
+  padding: 2rem;
+}
+.num1::after {
+  content: counter(num);
+}
+
+@keyframes counter {
+  from {
+    --num: 0;
+  }
+  to {
+    --num: 25;
+  }
+}

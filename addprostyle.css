@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+  padding: 0px !important;
+  margin: 0px !important;
+  max-width: 100 !important;
+  min-width: 0px !important;
+  font-family: "Lato", sans-serif;
+}
+
+.body::-webkit-scrollbar {
+  display: none !important;
+}
+
+.body {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  font-family: Lato, sans-serif !important;
+}
+
+.lato_txt {
+  font-family: "Lato", sans-serif !important;
+}
+
+.back_img {
+  /* background-image: url("./images/lhcadp.jpg"); */
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(./images/lhcadp.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  /* filter: drop-shadow(0px 10px 50px rgba(0, 0, 0, 0.25));
+  max-height: 100vh;
+  border: 1px solid red; */
+}
+.back_img div {
+  display: flex;
+  justify-content: center;
+}
+.back_img a,
+.right_body__arrow a {
+  margin-top: 10%;
+  text-decoration: none;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  color: #fff !important;
+  cursor: pointer;
+  height: auto;
+}
+.back_img span,
+.right_body__arrow span {
+  color: #ffc32b;
+  font-size: 1.5rem;
+}
+.right_body {
+  padding-left: 70px;
+  padding-right: 180px;
+  min-height: 100vh;
+}
+.right_body__arrow {
+  display: none;
+}
+.right_body > p a {
+  color: #292c32;
+  font-size: 0.8rem;
+  text-decoration: none;
+}
+.apply__continue{
+  color: #fff;
+}
+.apply__continue:hover {
+  background-color: #ffffff;
+  color: #e0a800 !important;
+  outline: #e0a800;
+}
+@media only screen and (max-width: 768px) {
+  .right_body {
+    padding: 10vw;
+  }
+  .right_body__arrow {
+    display: block;
+    margin-top: -5vh;
+    padding-bottom: 2vh;
+  }
+  .right_body__arrow a {
+    color: #000 !important;
+  }
+  .right_body > p {
+    padding-top: 5vh;
+    border: 1px solid red;
+    margin-right: -5vw;
+  }
+  .back_img {
+    display: none;
+  }
+}
